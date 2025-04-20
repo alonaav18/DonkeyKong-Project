@@ -1,0 +1,11 @@
+file format for .steps file:
+- first line: SEED
+- second line: number of steps
+- untill the end: ITERATION and then KEY	(i.e "4 d")
+
+
+file format for .results file:
+- first line: number of results
+- untill the end: ITERATION and then ACTION
+
+(iteration at death = 0, finish iteration of the screen = 1, score gained in the screen = 2)
